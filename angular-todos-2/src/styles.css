@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import '@shoelace-style/shoelace/dist/themes/light.css';
+
+/* You can add global styles to this file, and also import other style files */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lora', serif;
+}
+
+:root {
+  --primary-color: #1d5b79;
+  --secondary-color: #468b97;
+  --secondary-color-20: rgba(70, 139, 151, 0.2);
+  --strong-color: #ef6262;
+  --strong-color-50: rgba(239, 98, 98, 0.5);
+  --week-color: #f3aa60;
+  --white-color: #fff;
+  --gray-color: rgb(209 213 219);
+}

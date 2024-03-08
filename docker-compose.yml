@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  angular-app:
+    container_name: angular-app-container
+    build: ./angular-todos-2
+    ports:
+      - "4200:4200"
+    volumes:
+      - "./angular-todos-2:/app"
+      - "/app/node_modules"

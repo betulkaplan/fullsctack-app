@@ -1,0 +1,44 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# Compiled output
+/angular-todos-2/dist
+/angular-todos-2/tmp
+/angular-todos-2/out-tsc
+/angular-todos-2/bazel-out
+
+# Node
+/angular-todos-2/node_modules
+/angular-todos-2/npm-debug.log
+/angular-todos-2/yarn-error.log
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Miscellaneous
+/angular-todos-2/.angular/cache
+.sass-cache/
+/angular-todos-2/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+
+# System files
+.DS_Store
+Thumbs.db
+
+db.json

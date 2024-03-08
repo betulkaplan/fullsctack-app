@@ -1,0 +1,19 @@
+.todos-detail {
+  background-color: var(--white-color);
+  padding: 0.5rem;
+  color: var(--primaryColor);
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.25s;
+}
+
+.todos-detail:hover {
+  background-color: var(--strong-color-50);
+}
+
+hr {
+  margin: 0;
+  border: solid var(--secondary-color) 0.5px;
+}

@@ -1,0 +1,11 @@
+image: node:latest
+
+pipelines:
+  default:
+    - step:
+        name: Run Linter
+        caches:
+          - node
+        script:
+          - npm install
+          - npm run lint
