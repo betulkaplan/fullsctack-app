@@ -8,8 +8,7 @@
     "lint:fix": "eslint . --ext .ts --fix",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "json-server": "json-server --watch db.json"
+    "test": "ng test"
   },
   "private": true,
   "dependencies": {
@@ -22,7 +21,6 @@
     "@angular/platform-browser-dynamic": "^16.0.0",
     "@angular/router": "^16.0.0",
     "@shoelace-style/shoelace": "^2.6.0",
-    "json-server": "^1.0.0-alpha.23",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.13.0"
