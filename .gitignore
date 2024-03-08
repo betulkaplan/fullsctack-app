@@ -10,6 +10,7 @@
 /angular-todos-2/node_modules
 /angular-todos-2/npm-debug.log
 /angular-todos-2/yarn-error.log
+/json-server/node_modules
 
 # IDEs and editors
 .idea/

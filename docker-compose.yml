@@ -8,3 +8,11 @@ services:
     volumes:
       - "./angular-todos-2:/app"
       - "/app/node_modules"
+  json-server:
+    container_name: json-server
+    build: ./json-server
+    ports:
+      - "3000:3000"
+    volumes:
+      - "./json-server:/app"
+      - "/app/node_modules"
