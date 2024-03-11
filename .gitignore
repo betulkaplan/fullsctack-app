@@ -42,3 +42,22 @@ testem.log
 .DS_Store
 Thumbs.db
 
+HELP.md
+demo-server/target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Maven - Ignore Maven wrapper directory and files
+.mvn/
+mvnw
+mvnw.cmd
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache

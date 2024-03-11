@@ -16,3 +16,27 @@ services:
     volumes:
       - "./json-server:/app"
       - "/app/node_modules"
+  api:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/app
+      - ./.m2:/root/.m2
+    working_dir: /app
+    command: sh run.sh
+    ports:
+      - 8080:8080
+      - 35729:35729
+      - 5005:5005
+  server:
+    container_name: demo-server
+    build: ./demo-server
+    ports:
+      - "8080:8080"
+      - "8000:8000"
+    volumes:
+      - .:/home/app
+    environment:
+      - SPRING_DEVTOOLS_REMOTE_SECRET=mysecret
+      - SPRING_BOOT_DEVTOOLS_RESTART_ENABLED=true
