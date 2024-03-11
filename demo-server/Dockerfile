@@ -18,4 +18,4 @@ COPY --from=build /home/app/target/*.jar /usr/local/lib/app.jar
 
 EXPOSE 8080 8000
 
-ENTRYPOINT ["java", "-jar", "/usr/local/lib/app.jar"]
+ENTRYPOINT ["tail", "-f", "/dev/null"]

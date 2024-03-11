@@ -23,7 +23,7 @@ services:
       - "8080:8080"
       - "8000:8000"
     volumes:
-      - .:/home/app
+      - ./demo-server:/home/app
     environment:
       - SPRING_DEVTOOLS_REMOTE_SECRET=mysecret
       - SPRING_BOOT_DEVTOOLS_RESTART_ENABLED=true
